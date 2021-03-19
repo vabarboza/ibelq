@@ -8,7 +8,7 @@
 }
 
  ::-webkit-scrollbar-thumb {
-    background: radial-gradient(circle, #333333 14%, #333333 64%);
+    background: radial-gradient(circle, #3f4234 14%, #3f4234 64%);
     border-radius: 0px;
 }
 
