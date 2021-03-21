@@ -20,3 +20,29 @@
     background: #ffffff;
     border-radius: 0px;
 }
+
+.wow {
+    visibility: hidden;
+}
+
+body {
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+}
+
+main {
+    flex: 1 0 auto;
+}
+
+.twitter-text {
+    color: #1DA1F2 !important;
+}
+
+.fb-text {
+    color: #4267B2 !important;
+}
+
+.google-text {
+    color: #DB4437 !important;
+}

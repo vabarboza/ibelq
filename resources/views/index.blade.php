@@ -14,8 +14,8 @@
         <!--Slides-->
         <div class="carousel-inner" role="listbox">
             <div class="carousel-item active">
-                <div class="view">
-                    <img class="d-block w-75" src="https://mdbootstrap.com/img/Photos/Slides/img%20(68).jpg"
+                <div class="view overflow-auto">
+                    <img class="d-block w-75 img-fluid mx-auto" src="https://mdbootstrap.com/img/Photos/Slides/img%20(68).jpg"
                         alt="First slide">
                     <div class="mask rgba-black-light"></div>
                 </div>
@@ -27,7 +27,7 @@
             <div class="carousel-item">
                 <!--Mask color-->
                 <div class="view">
-                    <img class="d-block w-75" src="https://mdbootstrap.com/img/Photos/Slides/img%20(6).jpg"
+                    <img class="d-block w-75 mx-auto" src="https://mdbootstrap.com/img/Photos/Slides/img%20(6).jpg"
                         alt="Second slide">
                     <div class="mask rgba-black-strong"></div>
                 </div>
@@ -39,7 +39,7 @@
             <div class="carousel-item">
                 <!--Mask color-->
                 <div class="view">
-                    <img class="d-block w-75" src="https://mdbootstrap.com/img/Photos/Slides/img%20(9).jpg"
+                    <img class="d-block w-75 mx-auto" src="https://mdbootstrap.com/img/Photos/Slides/img%20(9).jpg"
                         alt="Third slide">
                     <div class="mask rgba-black-slight"></div>
                 </div>
@@ -72,8 +72,8 @@
                 dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia
                 deserunt mollit anim id est laborum.</p>
 
-            <div class="jarallax-keep-img float-md-left mr-md-4 mb-4 mb-md-0" data-speed="0.5">
-                <img class="jarallax-img" src="https://mdbootstrap.com/img/Photos/Horizontal/Nature/full page/img (3).jpg"
+            <div class="jarallax-keep-img float-md-left mr-md-4 mb-4 mb-md-0 wow fadeInUp" data-speed="0.5">
+                <img class="jarallax-img img-fluid" src="https://mdbootstrap.com/img/Photos/Horizontal/Nature/full page/img (3).jpg"
                     alt="" width="400">
             </div>
 
@@ -94,8 +94,8 @@
                 deserunt mollit anim id est laborum quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
                 dolor in reprehenderit amet.</p>
 
-            <div class="jarallax-keep-img float-md-right ml-md-4 mb-4 mb-md-0" data-speed="0.8">
-                <img class="jarallax-img" src="https://mdbootstrap.com/img/Photos/Horizontal/Nature/full page/img (14).jpg"
+            <div class="jarallax-keep-img float-md-right ml-md-4 mb-4 mb-md-0 wow fadeInUp" data-speed="0.8">
+                <img class="jarallax-img img-fluid" src="https://mdbootstrap.com/img/Photos/Horizontal/Nature/full page/img (14).jpg"
                     alt="" width="400">
             </div>
 

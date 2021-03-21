@@ -22,7 +22,7 @@
 
 <body>
     <!-- Start your project here-->
-    <nav class="navbar fixed-top navbar-expand-lg navbar-light scrolling-navbar bg-white shadow-sm">
+    <nav class="navbar sticky-top navbar-expand-lg navbar-light scrolling-navbar bg-white shadow-sm">
         <div class="container">
             <a class="navbar-brand" href="{{ route('index') }}">
                 <img src="{{ asset('img/logo.png') }} " height="40" alt="mdb logo">
@@ -34,10 +34,10 @@
             <div class="collapse navbar-collapse" id="navbarSupportedContent-7">
                 <ul class="navbar-nav mr-auto font-weight-bold">
                     <li class="nav-item font-weight-bold">
-                        <a class="nav-link" href="#">INICIO</span></a>
+                        <a class="nav-link" href="{{ route('index') }}">INICIO</span></a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">SOBRE NÓS</a>
+                        <a class="nav-link" href="{{ route('sobre') }}">SOBRE NÓS</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="#">FORMULÁRIOS</a>
@@ -63,10 +63,12 @@
         </div>
     </nav>
 
-    @yield('main')
+    <main>
+        @yield('main')
+    </main>
 
     <!-- Footer -->
-    <footer class="page-footer font-small stylish-color-dark pt-4">
+    <footer class="page-footer font-small stylish-color-dark pt-4 ">
 
         <!-- Footer Links -->
         <div class="container text-center text-md-left">
@@ -176,17 +178,17 @@
         <ul class="list-unstyled list-inline text-center">
             <li class="list-inline-item">
                 <a class="btn-floating btn-fb mx-1">
-                    <i class="fab fa-facebook-f"> </i>
+                    <i class="fab fa-facebook-f fb-text fa-lg"> </i>
                 </a>
             </li>
             <li class="list-inline-item">
                 <a class="btn-floating btn-tw mx-1">
-                    <i class="fab fa-twitter"> </i>
+                    <i class="fab fa-twitter twitter-text fa-lg"> </i>
                 </a>
             </li>
             <li class="list-inline-item">
                 <a class="btn-floating btn-gplus mx-1">
-                    <i class="fab fa-google-plus-g"> </i>
+                    <i class="fab fa-google-plus-g google-text fa-lg"> </i>
                 </a>
             </li>
             <li class="list-inline-item">
@@ -203,7 +205,7 @@
         <!-- Social buttons -->
 
         <!-- Copyright -->
-        <div class="footer-copyright text-center py-3">© 2020 Copyright:
+        <div class="footer-copyright text-center py-3">© 2021 Copyright:
             <a href="https://mdbootstrap.com/"> MDBootstrap.com</a>
         </div>
         <!-- Copyright -->
@@ -221,6 +223,12 @@
     <!-- MDB core JavaScript -->
     <script type="text/javascript" src="{{ asset('js/mdb.min.js') }}"></script>
     <!-- Your custom scripts (optional) -->
+    <script>
+        $(document).ready(function() {
+            new WOW().init();
+        });
+
+    </script>
 </body>
 
 </html>
