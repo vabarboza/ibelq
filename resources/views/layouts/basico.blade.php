@@ -32,7 +32,7 @@
                 <span class="navbar-toggler-icon"></span>
             </button>
             <div class="collapse navbar-collapse" id="navbarSupportedContent-7">
-                <ul class="navbar-nav mr-auto font-weight-bold">
+                <ul class="navbar-nav ml-auto font-weight-bold">
                     <li class="nav-item font-weight-bold">
                         <a class="nav-link" href="{{ route('index') }}">INICIO</span></a>
                     </li>
@@ -54,11 +54,6 @@
                         <a class="nav-link" href="{{ route('contato') }}">CONTATO</a>
                     </li>
                 </ul>
-                <form class="form-inline">
-                    <div class="md-form my-0">
-                        <input class="form-control mr-sm-2" type="text" placeholder="Search" aria-label="Search">
-                    </div>
-                </form>
             </div>
         </div>
     </nav>
@@ -98,7 +93,7 @@
 
                     <ul class="list-unstyled">
                         <li>
-                            <a href="{{ route('sobre') }}">Sobre Nós</a>
+                            <a href="{{ route('sobre') }}">Sobre nós</a>
                         </li>
                         <li>
                             <a href="#!">Serviços</a>
