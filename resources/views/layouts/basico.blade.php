@@ -51,7 +51,7 @@
                         </div>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">CONTATO</a>
+                        <a class="nav-link" href="{{ route('contato') }}">CONTATO</a>
                     </li>
                 </ul>
                 <form class="form-inline">

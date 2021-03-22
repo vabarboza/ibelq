@@ -1,5 +1,6 @@
 <?php
 
+use App\Http\Controllers\ContatoController;
 use App\Http\Controllers\PrincipalController;
 use App\Http\Controllers\SobreController;
 use Illuminate\Support\Facades\Route;
@@ -18,3 +19,5 @@ use Illuminate\Support\Facades\Route;
 Route::get('/', PrincipalController::class)->name('index');
 
 Route::get('/sobre', SobreController::class)->name('sobre');
+
+Route::get('/contato', ContatoController::class)->name('contato');
